@@ -53,6 +53,8 @@ TW_INCLUDE_CRYPTO := true
 BOARD_USES_QCOM_DECRYPTION := true
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_CRYPTFS_HW_PATH := vendor/qcom/opensource/cryptfs_hw
+TW_INCLUDE_CRYPTO_FBE := false
+TW_INCLUDE_FBE := false
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 \
